@@ -102,3 +102,10 @@ dist
 
 # TernJS port file
 .tern-port
+
+# typescript compile directory
+src
+
+# test reports
+reports/
+.DS_Store
