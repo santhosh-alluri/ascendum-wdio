@@ -50,7 +50,7 @@ Choose one of the following options:
 
 2. Create your branch by following the format (First and Last name Initial-AscendumExam). For Example: `IO-AscendumExam`
 
-3. Create tests with the following format
+3. Write the tests in [grid.test.ts](tests/grid.test.ts) with the following format
 
     ```javascript
     it("Should <what is being validated>", () => {
@@ -70,7 +70,10 @@ Choose one of the following options:
 
 5. Add descriptive commit messages
 
-6. Once you are finished, create a PR.
+6. Once you are finished, create a PR with the Subject (First and Last name Initial-AscendumExam Final). For Example: `IO-AscendumExam Final` and add the following
+
+    - Add a descriptive comment description for the PR
+
 
     > Reminder: ONLY create a PR if you are sure you have completed the Exam
 
