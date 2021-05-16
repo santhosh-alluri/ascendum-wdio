@@ -7,10 +7,11 @@ Web Automation Testing with Mocha and Chai, WebdriverIO V6 using Page Object Mod
 
 ## Features
 
-- WebdriverIO V6
-- Page Object Model
-- ESLint
-- HTML Reporter
+- [WebdriverIO V6](https://v6.webdriver.io/)
+- [Page Object Model](https://webdriver.io/docs/pageobjects/)
+- [ESLint](https://eslint.org/)
+- [HTML Reporter](https://webdriver.io/docs/rpii-wdio-html-reporter/)
+- [TypeScript](https://webdriver.io/docs/typescript/)
 
 ***
 
