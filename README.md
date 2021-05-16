@@ -65,7 +65,7 @@ Choose one of the following options:
     });
     ```
 
-    > Please be descriptive enought on the tests that is being validated
+    > Please be descriptive enough on the tests that is being validated
 
 4. Add Notes on your tests explaining your thought process on creating a function / method. If you use forEach or for loop, explain why you decided to use it (if applicable). Please see example in [grid.test.ts](tests/grid.test.ts)
 
