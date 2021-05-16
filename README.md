@@ -131,7 +131,8 @@ Choose one of the following options:
 ## Bonus Round
 > You don't have to do this but it will give you extra points for the exam. Please create a separate test file and name it `grid.bonus.test.ts`
 
-1. Create a Test where Rating is `2 and 4 Starts` ONLY and only show the following columns
+1. Upgrade the Test Automation from WebdriverIO v6 to v7.
+2. After upgrading, create a Test where Rating is `2 and 4 Starts` ONLY and only show the following columns
 
     ```console
     Name
@@ -141,7 +142,7 @@ Choose one of the following options:
     Jan to May Winnings
     ```
 
-2. Following item #1, after filter by Rating and selecting the columns, create a test to change the data size to `100000 Rows, 22 Cols`, change the Theme to Balham and `Filter any column` by `Kobe`
+3. Following item #1, after filter by Rating and selecting the columns, create a test to change the data size to `100000 Rows, 22 Cols`, change the Theme to Balham and `Filter any column` by `Kobe`
 
 ***
 
