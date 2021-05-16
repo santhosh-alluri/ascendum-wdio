@@ -22,4 +22,8 @@ export class GridPage {
   public static get colDecember() {
     return $$('[ref="eCenterContainer"] [col-id="dec"]');
   }
+
+  public static get columnHeader() {
+    return $$('[aria-rowindex="1"] > [role="columnheader"]');
+  }
 }

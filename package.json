@@ -4,7 +4,7 @@
   "description": "Automation Repo for working with Grids",
   "main": "index.js",
   "scripts": {
-    "test-chrome": "tsc && wdio run conf/wdio.chrome.conf.js",
+    "test": "tsc && wdio run conf/wdio.chrome.conf.js",
     "lint-fix": "eslint . --fix"
   },
   "repository": {

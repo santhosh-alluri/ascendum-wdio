@@ -9,5 +9,8 @@ describe("Load AG Grid", () => {
 
   it("should display the grids", () => {
     GridPage.mainGrid.waitForDisplayed();
+    GridPage.columnHeader.forEach((el) => {
+      expect(el.isDisplayed()).to.eql(true)
+    })
   });
 });
