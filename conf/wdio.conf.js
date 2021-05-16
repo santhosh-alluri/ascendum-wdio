@@ -1,9 +1,9 @@
-const path = require("path")
-const { ReportAggregator, HtmlReporter } = require("@rpii/wdio-html-reporter")
-const log4j = require("log4js")
+const path = require("path");
+const { ReportAggregator, HtmlReporter } = require("@rpii/wdio-html-reporter");
+const log4j = require("log4js");
 
-const dotenv = require("dotenv")
-dotenv.config()
+const dotenv = require("dotenv");
+dotenv.config();
 
 exports.config = {
   runner: "local",
@@ -68,35 +68,35 @@ exports.config = {
       reportTitle: "GoodRX Test Master Report",
       browserName: capabilities.browserName,
       collapseTests: true,
-    })
-    reportAggregator.clean()
-    global.reportAggregator = reportAggregator
+    });
+    reportAggregator.clean();
+    global.reportAggregator = reportAggregator;
   },
 
   onComplete: function () {
     (async () => {
-      await global.reportAggregator.createReport()
-    })()
+      await global.reportAggregator.createReport();
+    })();
   },
 
   before: function () {
-    browser.setWindowSize(1920, 1440)
+    browser.setWindowSize(1920, 1440);
   },
 
   afterTest: function (test) {
-    const path = require("path")
-    const moment = require("moment")
+    const path = require("path");
+    const moment = require("moment");
 
     // if test passed, ignore, else take and save screenshot.
     if (test.passed) {
-      return
+      return;
     }
-    const timestamp = moment().format("YYYYMMDD-HHmmss.SSS")
+    const timestamp = moment().format("YYYYMMDD-HHmmss.SSS");
     const filepath = path.join(
       "reports/html-reports/screenshots/",
       timestamp + ".png"
-    )
-    browser.saveScreenshot(filepath)
-    process.emit("test:screenshot", filepath)
+    );
+    browser.saveScreenshot(filepath);
+    process.emit("test:screenshot", filepath);
   },
-}
+};
