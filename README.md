@@ -72,10 +72,30 @@ Choose one of the following options:
 
 6. Once you are finished, create a PR with the Subject (First and Last name Initial-AscendumExam Final). For Example: `IO-AscendumExam Final` and add the following
 
+    - Add @ianoroceo as Reviewer
+    - Assign the PR to yourself
+    - Add Label `DO NOT MERGE`
     - Add a descriptive comment description for the PR
+    - If the PR template is not loaded when you create a PR, please add this on your PR Description
 
+        ```console
+        #### Summary
 
-    > Reminder: ONLY create a PR if you are sure you have completed the Exam
+        [A brief description of what this pull request does.]
+
+        #### Checklist
+
+        [Place an x (no spaces) in all applicable fields. Please remove unrelated fields.]
+
+        - [ ] Bug fix (non-breaking change which fixes an issue)
+        - [ ] New feature (non-breaking change which adds functionality)
+        - [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
+        - [ ] Is the code properly formatted using EsLint?
+        - [ ] Have tested it in integration
+        - [ ] Has ReadMe.md been updated, if required?
+        ```
+
+    > Reminder: ONLY create a PR if you are sure you have completed the Exam. Please see [sample PR](https://github.com/ianoroceo/ag-grid/pull/1) as reference
 
 ***
 
