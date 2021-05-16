@@ -52,17 +52,15 @@ Choose one of the following options:
 
 3. Create tests with the following format
 
-    ```console
+    ```javascript
     it("Should <what is being validated>", () => {
-
     })
     ```
 
     For example
 
-    ```console
+    ```javascript
     it("Should display the grids", () => {
-
     });
     ```
 
