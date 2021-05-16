@@ -7,10 +7,16 @@ describe("Load AG Grid", () => {
     Page.open();
   });
 
-  it("should display the grids", () => {
+  it("Should display the grids", () => {
     GridPage.mainGrid.waitForDisplayed();
+
+    /**
+     * I'm using forEach here for readability purposes
+     * The function iterates through the element array
+     * and checks if element is displayed.
+     */
     GridPage.columnHeader.forEach((el) => {
-      expect(el.isDisplayed()).to.eql(true)
-    })
+      expect(el.isDisplayed()).to.eql(true);
+    });
   });
 });
