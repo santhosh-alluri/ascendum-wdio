@@ -1,5 +1,5 @@
-const defaults = require("./wdio.conf.js").config;
-const _ = require("lodash");
+const defaults = require("./wdio.conf.js").config
+const _ = require("lodash")
 
 const overrides = {
   capabilities: [
@@ -17,6 +17,6 @@ const overrides = {
    * This happens when you don't have admin access to your machine
    */
   services: ["selenium-standalone"],
-};
+}
 
-exports.config = _.defaultsDeep(overrides, defaults);
+exports.config = _.defaultsDeep(overrides, defaults)

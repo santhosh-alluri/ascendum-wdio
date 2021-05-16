@@ -1,12 +1,14 @@
-import { expect } from "chai";
-import { Page } from "../pages/page";
+import { expect } from "chai"
+import { GridPage } from "../pages/gridPage"
+import { Page } from "../pages/page"
 
 describe("Load AG Grid", () => {
   before(() => {
-    Page.open();
-  });
+    Page.open()
+  })
 
   it("should display the grids", () => {
-    browser.pause(10000);
-  });
-});
+    GridPage.mainGrid.waitForDisplayed()
+
+  })
+})

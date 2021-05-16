@@ -1,9 +1,9 @@
-import * as dotenv from "dotenv";
-dotenv.config();
+import * as dotenv from "dotenv"
+dotenv.config()
 
 export class Page {
   public static open() {
-    browser.url(process.env.URL);
+    browser.url(process.env.URL)
   }
 
   public static waitForElementTobeVisible(
@@ -12,6 +12,6 @@ export class Page {
     elementToVisible.waitForDisplayed({
       timeout: 10000,
       timeoutMsg: "Element not Displayed",
-    });
+    })
   }
 }
