@@ -13,7 +13,7 @@ Web Automation Testing with Mocha and Chai, WebdriverIO V6 using Page Object Mod
 - [HTML Reporter](https://webdriver.io/docs/rpii-wdio-html-reporter/)
 - [TypeScript](https://webdriver.io/docs/typescript/)
 
-***
+****
 
 ## Quick start
 
