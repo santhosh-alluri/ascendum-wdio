@@ -20,7 +20,7 @@ exports.config = {
 
   capabilities: [{ maxInstances: 5 }],
 
-  logLevel: "debug",
+  logLevel: "silent",
   // outputDir: path.resolve(__dirname, "../logs"),
 
   bail: 0,
@@ -30,6 +30,7 @@ exports.config = {
   connectionRetryTimeout: 120000,
 
   connectionRetryCount: 3,
+
 
   framework: "mocha",
 
